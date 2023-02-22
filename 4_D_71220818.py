@@ -1,7 +1,6 @@
-
 nama=input("Masukkan Nama Lengkap Anda : ")
 prodi=input("Masukkan Prodi Anda : ")
-hurufnilai=input("Masukkan Nilai (dalam Huruf) yang Anda Dapat : ")
+hurufnilai=input("Masukkan Nilai (dalam Huruf) yang Anda Dapat : ").upper()
 try:
     if(hurufnilai=="A"):
         print("Nilai anda adalah 4.0, tbl tbl serem bgt lohh")
@@ -24,4 +23,4 @@ try:
     else:
         print("Inputan nilai yang anda masukkan tidak valid")
 except:
-    print("tes")
+    print("Inputan nilai yang anda masukkan tidak valid")
